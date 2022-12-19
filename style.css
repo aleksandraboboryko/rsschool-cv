@@ -67,7 +67,13 @@ img{
 .about{
     margin-top: 150px;
 }
-
+.about img{
+  display: block;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 50%;
+  margin: 0 auto;
+}
 .skills nav ul li::before{
     content: "-";
     padding-right: 5px;
@@ -84,6 +90,7 @@ img{
     max-width: 100%;
     justify-content: space-between;
     align-items: center;
+    margin-top: 50px;
 }
 
 .footer .logo{
@@ -91,13 +98,13 @@ img{
     width: 100%;
 }
 
-@media screen and (max-width: 700px;){
+@media screen and (max-width: 700px){
     body{
       font-size: 18px;  
     }
 }
 
-@media screen and (max-width: 650px;){
+@media screen and (max-width: 650px){
     .header nav ul{
         flex-direction: column;
         max-width: 100%;
